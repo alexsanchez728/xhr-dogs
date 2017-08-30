@@ -59,11 +59,18 @@ function combinedArray(dogsArray, breedsArray) {
 			domString(dogsArray);
 }
 
-function domString(dogs) {
-	var finishedDomString = "";
-	// blahblablahblahblah
-	writeToDom(finishedDomString);
-}
-function writeToDom() {
-	// put in the DOM;
-}
+// function domString(dogs) {
+// 	var finishedDomString = "";
+// 	for (var i = 0; i < dogs.length; i++){
+// 		finishedDomString += 	`<div class="dog">`;
+// 		finishedDomString += 		`<h1>${dogs[i].name}</h1>`;
+// 		finishedDomString += 		`<h5>breed: ${dogs[i].categoryName}</h5>`;
+// 		finishedDomString += 		`<h5>description: ${dogs[i].description}</h5>`;
+// 		finishedDomString += 		`<h3>&#36;${dogs[i].finalPrice}</h3>`;
+// 		finishedDomString +=  `</div>`
+// 	}
+// 	writeToDom(finishedDomString);
+// }
+// function writeToDom(finishedDomString) {
+// 	document.body.innerHTML += finishedDomString;
+// }
